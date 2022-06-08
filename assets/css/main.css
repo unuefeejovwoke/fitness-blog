@@ -52,6 +52,11 @@ body{
     
 }
 
+section{
+    -webkit-animation: introLoad 3s forwards;
+    animation: introLoad 3s forwards ease-in-out;
+
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -586,6 +591,28 @@ body.light-theme{
     transform: scale(1.05);
 }
 
+/* animation on load */
+@-webkit-keyframes introLoad {
+    from {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+  
+@keyframes introLoad {
+    from {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
 /* Newsletter */
 
 /* Footer */
