@@ -1,0 +1,556 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Fitness | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+   
+    <header class="header" id="header">
+        <!-- using container class on the nav tag to limit how wide it will strech -->
+        <nav class="navbar container">
+            <a href="/index.html">
+                <img src="./assets/images/logo.png" class="logo" alt="logo">
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Fitness Tips</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Weekly challenge</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item screen-lg hidden">
+                        <a href="" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
+                    <span>Sign up</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- Search -->
+    <div class="search-form-container" id="search-form-container">
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input type="text" placeholder="search fitness tips" class="form-input">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close</span>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+    <!-- Featured articles -->
+
+    <section class="featured-articles section-header-offset">
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Weekly Challenge</span>
+                    </h3>
+                    <span class="headline-description">Baki Hanma Workout Challenge</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zml0bmVzcyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    <span class="article-category">Home workout</span>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Abs Workout at home</h3>
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="https://images.unsplash.com/photo-1600026453284-65cc5a6b7aa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zml0bmVzcyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    <span class="article-category">Cardio</span>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">How to do cardio at home</h3>
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="https://images.unsplash.com/photo-1550245890-7192911894f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGZpdG5lc3MlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    <span class="article-category">Street workout</span>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Why calisthenics?</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar d-grid">
+                <h3 class="title featured-content-title">Weekly Workout</h3>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01 </span>
+                        <img src="https://images.unsplash.com/photo-1597452485677-d661670d9640?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZpdG5lc3MlMjBtYW4lMjBjaGVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data"> 
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 1- Chest, shoulders and triceps</h3>
+                    </div>
+                </a>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02 </span>
+                        <img src="https://images.unsplash.com/photo-1600881333167-dbb33a5dcfda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMG1hbiUyMGxlZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 2- Legs and abs</h3>
+                    </div>
+                </a>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03 </span>
+                        <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zml0bmVzcyUyMG1hbiUyMGxlZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 3- Back and Biceps</h3>
+                    </div>
+                </a>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04 </span>
+                        <img src="https://images.unsplash.com/photo-1581122584612-713f89daa8eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fGZpdG5lc3MlMjBtYW4lMjBsZWdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 4- Light weights legs day</h3>
+                    </div>
+                </a>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05 </span>
+                        <img src="https://images.unsplash.com/photo-1639496906431-f732f9478600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZpdG5lc3MlMjBtYW4lMjBsZWdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 5- Chest, shoulders and triceps</h3>
+                    </div>
+                </a>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">06 </span>
+                        <img src="https://images.unsplash.com/photo-1583500178450-e59e4309b57d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGZpdG5lc3MlMjBtYW4lMjBsZWdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 6- Back and Biceps</h3>
+                    </div>
+                </a>
+
+                <a href="" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">07 </span>
+                        <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGZpdG5lc3MlMjBtYW4lMjBsZWdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Day 7- Rest</h3>
+                    </div>
+                </a>  
+            </div>
+        </div>
+    </section>
+    <!-- Quick read -->
+
+    <section class="quick-read section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Anime Workout Challenge">Anime Workout Challenge</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <a href="" class="article swiper-slide">
+                        <img src="https://i.pinimg.com/236x/2c/bd/fc/2cbdfcc989ff82afbbf6b46805556401.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Baki Hanma<h3>
+                        </div>
+                    </a>
+
+                    
+                    <a href="" class="article swiper-slide">
+                        <img src="https://i.pinimg.com/564x/7f/bd/79/7fbd79953360281371e8c8ab8e311e60.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Eren Yeager<h3>
+                        </div>
+                    </a>
+
+                    
+                    <a href="" class="article swiper-slide">
+                        <img src="https://i.pinimg.com/236x/f1/fd/1a/f1fd1a19c7e58f53b295eb53e1ed10f6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Asta<h3>
+                        </div>
+                    </a>
+
+                    
+                    <a href="" class="article swiper-slide">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05d31f83-2fcb-419f-91c7-0cccbe779554/d65uqye-11802949-19db-438f-81dd-171a48d341a4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1ZDMxZjgzLTJmY2ItNDE5Zi05MWM3LTBjY2NiZTc3OTU1NFwvZDY1dXF5ZS0xMTgwMjk0OS0xOWRiLTQzOGYtODFkZC0xNzFhNDhkMzQxYTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.S8gIirlN-NtuQhowOlgWlLRUbEhdsEIXPNGm-XrTRRE" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Goku<h3>
+                        </div>
+                    </a>
+
+                    
+                    <a href="" class="article swiper-slide">
+                        <img src="https://i.pinimg.com/236x/c4/89/af/c489af2f350d83b87ad6a779771be876.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Mike Oze<h3>
+                        </div>
+                    </a>
+
+                    
+                    <a href="" class="article swiper-slide">
+                        <img src="https://img.wattpad.com/cover/295195006-256-k907030.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Deku<h3>
+                        </div>
+                    </a>
+
+                    
+                    <a href="" class="article swiper-slide">
+                        <img src="https://qph.fs.quoracdn.net/main-qimg-6dcca42472f77d03dee57d72a19dd5d7-lq" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                        
+                            <div class="article-data">
+                                <span>June 30th 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 min read and video shorts</span>
+                            </div>
+    
+                            <h3 class="title article-title">Zorro<h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Personal posts">Personal Posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+                <a href="" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/Baki.png" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Baki<h3>
+                            <p class="article-description">The only workout routine to have Baki aesthetics. lore</p>
+                    </div>
+                </a>
+
+                <a href="" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/baki1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Baki<h3>
+                            <p class="article-description">The only workout routine to have Baki Chest.</p>
+                    </div>
+                </a>
+
+                <a href="" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/baki2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Baki<h3>
+                            <p class="article-description">The demon back.</p>
+                    </div>
+                </a>
+
+                <a href="" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/baki3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Baki<h3>
+                            <p class="article-description">The only workout routine to have Baki shoulders.</p>
+                    </div>
+                </a>
+
+                <a href="" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/baki4.webp" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>June 30th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read and video shorts</span>
+                        </div>
+
+                        <h3 class="title article-title">Baki<h3>
+                            <p class="article-description">The only workout routine to have Baki aesthetics.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="see-more-container">
+                <a href="" class="btn see-more-btn place-items-center">
+                    See more <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+                <a href="" class="article">
+                    <span class="tag-name">#legs</span>
+                    <img src="http://s3.weddbook.com/t4/2/0/5/2053626/build-defined-sexy-legs-fitness-pinterest.jpg" alt="tagsname" class="article-image">
+                </a>
+
+                <a href="" class="article">
+                    <span class="tag-name">#chest</span>
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/701/articles/2016/03/chest-workout-from-hell-1492801201.jpg?crop=1xw:0.786xh;center,top&resize=1200:*" alt="tagsname" class="article-image">
+                </a>
+
+                <a href="" class="article">
+                    <span class="tag-name">#abs</span>
+                    <img src="https://t3.ftcdn.net/jpg/02/70/23/12/360_F_270231245_SXqIm3mwdsWVJKmSLk5HwHAEGvOA3mYM.jpg" alt="tagsname" class="article-image">
+                </a>
+
+                <a href="" class="article">
+                    <span class="tag-name">#back</span>
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLS21dspZkogoYlYxhGEvns5V3W1s5I9gnhj1KZg7w=s900-c-k-c0x00ffffff-no-rj" alt="tagsname" class="article-image">
+                </a>
+
+                <a href="" class="article">
+                    <span class="tag-name">#fullbody</span>
+                    <img src="https://i.pinimg.com/originals/3e/d5/47/3ed5477edccc1b1ecd3a0cd2c57187c8.jpg" alt="tags" class="article-image">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    
+    <!-- Footer -->
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
